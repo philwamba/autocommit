@@ -1,0 +1,30 @@
+{
+    "name": "philwamba/autocommit",
+    "description": "AutoCommit is a Laravel package that helps you automatically generate clear and concise commit messages using AI.",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^10.48",
+        "symfony/console": "^6.4",
+        "openai-php/client": "^0.10.1",
+        "symfony/http-client": "^6.4",
+        "nyholm/psr7": "^1.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Philwamba\\Autocommit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Phil Wamba",
+            "email": "philwamba@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
